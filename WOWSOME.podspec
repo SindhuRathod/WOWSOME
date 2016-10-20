@@ -9,23 +9,16 @@
 Pod::Spec.new do |s|
   s.name             = 'WOWSOME'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WOWSOME.'
+  s.summary          = 'WOWSOME solves marketers problems using augmented reality'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = 'WOWSOME solves marketers’ problems using augmented reality. Our obsessive research in computer vision, integrated with marketing and advertising best practises, created the most useful suite of products in the segment.'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/WOWSOME'
+  s.homepage         = 'https://github.com/SindhuRathod/WOWSOME'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sameeran Amarnath' => 'amarnathsameeran@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/WOWSOME.git', :tag => s.version.to_s }
+  s.author           = { 'SindhuRathod' => 'sindhurathlavath@gmail.com' }
+  s.source           = { :git => 'https://github.com/SindhuRathod/WOWSOME.git', :tag => 'v0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
